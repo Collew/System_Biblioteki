@@ -1,0 +1,169 @@
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    background-color: #E5EBF1;
+    color: #5C728A;
+}
+
+.login_container{
+    background-color: #2B2D42;
+    padding: 40px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FBFBFB;
+}
+
+form{
+    width: 100%;
+    overflow: hidden;
+}
+
+.login_input{
+    background-color: #33364e;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #FBFBFB;
+    width: calc(100% - 20px);
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px
+}
+
+.login_input:focus{
+    outline: none;
+}
+
+.login_input::placeholder{
+    font-weight: bold;
+    color: #FAF6F5;
+}
+
+.btn{
+    background-color: #00AAFF;
+    color: #FBFBFB;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: #0082c4;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: #FAF6F5;
+}
+
+h2{
+    margin: 0;
+}
+
+.margin_btn{
+    margin-bottom: 15px;
+}
+
+.panel{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar{
+    width: 300px;
+    background-color: #2B2D42;
+    padding: 32px;
+}
+
+.content{
+    width: calc(100% - 300px);
+    padding: 32px;
+}
+
+.user_info{
+    text-align: center;
+    color: #FBFBFB;
+}
+
+.user_info > img{
+    margin-bottom: 12px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #33364e;
+}
+
+th{
+    background-color: #2B2D42;
+    color: #FAF6F5;
+    padding: 12px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+tr{
+    transition: .2s;
+}
+
+tr:nth-child(even) {
+    background-color: #2B2D42;
+    color: #FBFBFB;
+  }
+
+td{
+    padding: 8px 12px 8px 12px;
+    font-weight: bold;
+    color: #FBFBFB;
+}
+
+tr:hover{
+    background-color: #40435f;
+    color: #FBFBFB;
+}
+
+.th_btn{
+    width: 100px;
+    text-align: center;
+}
+
+.delete_btn{
+    background-color: #FF0000;
+}
+
+.delete_btn:hover{
+    background-color: #c40000;
+}
+
+
+.title_div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.title_div > form > button{
+    padding: 0;
+    margin: 0 0 0 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
